@@ -1,0 +1,68 @@
+body {
+    background-color: #222;
+    color: #ee6;
+}
+/*Agregar una regla para definir el color de fondo del documento en #222, y el color del texto en #ee6*/
+
+h1 {
+    text-align: center;
+    color: #eee;
+}
+/*Agregar una regla para centrar el título principal del documento.*/
+
+h2,h3 {
+    color: #eee;
+}
+/*Agregar una regla para mostrar en color #eee todos los títulos del documento.*/
+
+p {
+    font-family: sans-serif;
+}
+/*Mostrar todos los párrafos con una fuente sans-serif.*/
+
+strong {
+    border-bottom: 1px solid white;
+}
+/*Agregar un borde inferior color blanco a todos los elementos <strong>.*/
+
+.the-force {
+    font-weight: bold;
+    background-color: #444;
+}
+/*Mostrar el fondo gris #444 y el texto en negrita para todos los elementos con la clase the-force.*/
+
+.light-side {
+    color: #66f;
+}
+/*#66f para los elementos con la clase light-side*/
+
+.dark-side {
+    color: #f33;
+}
+/*color #f33 para la clase dark-side.*/
+
+#og-trylogy {
+    list-style-type: circle;
+}
+/*Agregar la regla list-style-type: circle; a los elementos del listado con ID og-trilogy.*/
+
+ul.movies-list:nth-of-type(2) {
+    padding-left: 10px;
+}
+/*Agregar padding-left al segundo listado de películas.*/
+
+ul.movies-list:nth-of-type(3) li:last-child {
+    margin-top: 20px;
+}
+/*Agregar margin-top al último elemento del tercer listado de películas.*/
+
+
+/*Bonus Track*/
+
+h1:hover {
+    color: pink;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
